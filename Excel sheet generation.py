@@ -151,7 +151,7 @@ def main():
                     print("\n No matching entries found.\n")
                     
             elif sub_option == '2':
-                file_name = f'{professor_name_input}_all_papers.xlsx'
+                file_name = f'{professor_name_input}.xlsx'
                 print("\nTitles:\n")
                 for entry in data:
                     print(entry['Title'])
