@@ -5,7 +5,7 @@ import time
 
 # Function to fetch scholar ID and email from input file
 def fetch_scholar_id(professor_name):
-    input_wb = openpyxl.load_workbook('input.xlsx')
+    input_wb = openpyxl.load_workbook('D:\practice external\projects videos\Individual-Research-Profile-Generation\input.xlsx')
     input_sheet = input_wb.active
 
     scholar_id = None
